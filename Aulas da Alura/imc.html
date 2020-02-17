@@ -1,0 +1,64 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+
+function calculaImc(peso, altura) {
+
+    let imc = peso / (altura * altura);
+    mostra("O IMC calculado é " + imc);
+    mostra("Arredondando, seria " + Math.round(imc));
+    if(imc < 18.5) {
+
+mostra("Você está só o pó... Vai malhar e encher o buxo! Hahahah");
+}
+
+else if(imc >= 18.5 && imc <= 35) {
+
+mostra("Você está no quadro que dizem estar saúdavel, mas sabemos que ninguém nunca é 100% saúdavel, então fica de olho! Hahahahah");
+
+
+}
+
+
+else {
+
+mostra("Você está mó porpetinha em... Está na hora de para de correr atrás de comida e e começar a correr atrás de uns kilinhos a menos! Hahahah");
+}
+
+}
+
+
+let nome = prompt("Informe o seu nome.")
+let pesoMago = prompt(nome + ", Informe o seu peso.");
+let alturaMago = prompt(nome + ", Informe a sua altura.");
+calculaImc(pesoMago, alturaMago);
+
+
+
+
+
+
+</script>
+
+
+<!--document.write serve para "imprimir" um resultado na página!-->
+<!--Concatenação é a ação de "juntar" valores (tanto string quanto quaisquer outros valores)-->
+<!--Para criar uma variação é preciso usar let depois o nome da variação = o valor a ser usado como variação!-->
+<!--O simbolo = significa "recebe"!-->
+<!--Para atribuir um novo valor a uma variavel já existete basta colocar o nome da variação e depois atribuir o novo valor a ela!-->
+<!--O deburador dos navegadores leêm o código da esquerda para a direita, SEMPRE!-->
+<!--Para arredondar um valor basta usar uma operação chamada Math.round(aqui atribui o valor);-->
+<!--Para realizar uma função basta digitar Function, dar um nome que faça sentido, colocar (), abrir {} e dentro do bloco de parametro atribuir o comando a ser executado!-->
+<!--No caso da Função que for "substituir" o document.write, é necessário preencher o parametro do () com alguma variavel que faça sentido e que automaticamente irá corresponder aos valores que estão atribuidos no () que precederá a função!-->
