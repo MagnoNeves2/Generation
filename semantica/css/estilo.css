@@ -158,13 +158,16 @@ width: 100%;
 }
 
 footer > img{
-    width: 15%;
+    width: 20%;
     margin: 5% 40%;
 }
 
 
 /* Inicio do layout para dispositivos móveis */
 @media screen and (max-width: 950px){
+    h1{
+        text-align: center;
+    }
     .trabalhos > article{
         width: 30%;
     }
@@ -172,7 +175,7 @@ footer > img{
 
 @media screen and (max-width: 931px){
     .sobre > h1{
-        text-align: center;
+        font-size: 2.5em;
     }
 }
 
@@ -252,8 +255,12 @@ footer > img{
 }
 
 @media screen and (max-width: 502px){
+    header{
+        height: 330px;
+    }
     header > img{
         float: none;
+        margin-left: 145px;
     }
     header > nav{
         float: none;
@@ -261,8 +268,42 @@ footer > img{
     }
 }
 
+@media screen and (max-width: 486px){
+    .trabalhos > article{
+        width: 26%;
+    }
+}
 
+@media screen and (max-width: 424px){
+    header > img{
+        margin-left: 100px;
+    }
+    .trabalhos > article{
+        float: none;
+        width: 90%;
+    }
+    .trabalhos > article > p{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 320px){
+    header > img{
+        margin-left: 60px;
+    }
+    .trabalhos > article{
+        float: none;
+        width: 90%;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .trabalhos > article > p{
+       font-size: 1.4em;
+       text-align: left;
+    }
+}
 
+/* EXECÍCIO CONCLUÍDO - PÁGINA RESPONSIVA! */
 
 
 
