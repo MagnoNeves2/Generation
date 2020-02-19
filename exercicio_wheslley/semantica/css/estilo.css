@@ -1,0 +1,254 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Marvel&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Marvel', sans-serif;
+    color: #fff;
+    background-color: #2ba8d9;
+}
+
+main{
+    width: 100%;
+    max-width: 1600px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+/* Estilo do Topo e Menu */
+header{
+    background-color: #2ba8d9;
+    height:180px;
+    padding: 0.7em;
+}
+
+header > img{
+    float: left;
+    margin:15px;
+}
+
+header > nav{
+    width:250px;
+    float: right;
+    overflow: hidden;
+}
+
+header > nav > ul{
+    list-style: none;
+}
+
+header > nav > ul > li{
+    padding-right:5px;
+}
+
+header > nav > ul > li > a:link{
+    display: block;
+    font-size: 1.4em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    height: 40px;
+    font-weight: bolder;
+    line-height: 1.4em;
+    background-color: #ff675a;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow:3px 2px 2px 0 #707070;
+}
+
+header > nav > ul > li > a:visited{
+    color: #fff;
+}
+
+header > nav > ul > li > a:hover{
+    color: #707070;
+}
+
+/* Estilo dos títulos das Seções */
+h1{
+    font-size: 3em;
+    margin: 0 20px 25px 20px;
+}
+
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Seção Sobre */
+.sobre{
+    background-color: #ff675a;
+    padding:1em;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sobre > img{
+    float: left;
+    margin-right:20px;
+}
+
+/* Seção Trabalhos */
+.trabalhos{
+    background-color:#fac17e;
+    padding: 1em;
+    margin-bottom: 3%;
+    overflow: hidden;
+}
+
+.trabalhos > article{
+    float: left;
+    width: 30.2%;
+    margin: 0.9em;
+    height: 500px;
+    box-shadow: 3px 2px 2px 0 #707070;
+    text-align: justify;
+    padding: 1em;
+}
+
+.trabalhos > article > img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sites{
+    background-color: #2ba8b9;
+}
+
+.sistemas{
+    background-color: #ff675a;
+}
+
+.projetos{
+    background-color: #63bf9e;
+}
+
+/* Seção Contato */
+.contatos{
+    width: 40%;
+    padding:30px;
+    float: left;
+    text-align: center;
+}
+
+.contatos > p{
+    font-size: 30px;
+}
+
+iframe{
+    width: 55%;
+    height: 300px;
+    float: right;
+    margin-right: 20px;
+}
+
+/* Rodapé */
+footer{
+    float: left;
+    width:100%;
+}
+
+footer > img{
+    width: 15%;
+    margin:5% 40%;
+}
+
+/* Início do Layout para Dispositivos Móveis */
+@media screen and (max-width:950px){
+    .trabalhos > article{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:922px){
+    .sobre > h1{
+        text-align: center;
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width:768px){
+    .sobre > img{
+        width:100%;
+        float: none;
+    }
+
+    .sobre > h1{
+        margin-top: 10px;
+    }
+
+    .trabalhos > article{
+        width: 29%;
+    }
+}
+
+@media screen and (max-width:425px){
+    header{
+        height: 325px;
+    }
+    
+    header > img{
+        float: none;
+        margin-left: 110px;
+    }
+
+    header > nav {
+        float: none;
+        width:100%;
+    }
+
+    .sobre > p{
+        font-size: 20px;
+        text-align: justify;
+        line-height: 1.4em;
+    }
+
+    .trabalhos > h1{
+        text-align: center;
+    }
+
+    .trabalhos > article {
+        float: none;
+        width: 100%;
+        margin: 0.9em 0;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 1.4em;
+    }
+
+    .contatos{
+        width:100%;
+        float: none;
+    }
+
+    iframe{
+        float: none;
+        width: 100%;
+    }
+
+    footer{
+        float: none;
+    }
+
+    footer > img{
+        width:25%;
+        margin:5% 36%;
+    }
+}
+
+@media screen and (max-width:375px){
+    header > img{
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:320px){
+    header > img{
+        margin-left: 55px;
+    }
+
+}
