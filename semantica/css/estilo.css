@@ -1,0 +1,302 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Marvel&display=swap');
+
+*{
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Marvel', sans-serif;
+    color: #ffffff;
+    background-color: #2ba8d9;
+}
+
+main{
+width: 100%;
+max-width: 1600px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+/* Estilo do Topo e do Menu */
+header{
+    background-color: #2ba8d9;
+    height: 180px;
+    padding: 0.7em;
+}
+
+header > img{
+    float: left;
+    margin: 15px;
+}
+
+header > nav{
+width: 250px;
+float: right;
+overflow: hidden;
+}
+
+header > nav > ul{
+    list-style: none;
+}
+
+header > nav > ul > li{
+    padding-right: 5px;
+}
+
+header > nav > ul > li > a:link{
+    display: block;
+    font-size: 1.4em;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    height: 40px;
+    font-weight: bolder;
+    line-height: 1.4em;
+    background-color: #ff675a;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px 0 #707070;
+}
+
+header > nav > ul > li > a:visited{
+    color: #fff;
+} 
+
+header > nav > ul > li > a:hover{
+    color: #707070;
+}
+
+
+/* Estilo do títulos das sessões */
+h1{
+font-size: 3em;
+margin: 0 20px 25px 20px;
+}
+
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* Seção Sobre */
+.sobre{
+background-color: #ff675a;
+padding: 1em;
+width: 100%;
+overflow: hidden;
+}
+
+.sobre > img{
+float: left;
+margin-right: 20px;
+}
+
+
+/* Seção Trabalhos */
+.trabalhos{
+background-color: #fac17e;
+padding: 1em;
+margin-bottom: 3%;
+overflow: hidden;
+}
+
+.trabalhos > article{
+    float: left;
+    width: 30.2%;
+    margin: 0.9em;
+    height: 500px;
+    box-shadow: 3px 2px 2px 0 #707070;
+    text-align: justify;
+    padding: 1em;
+}
+
+.trabalhos > article > img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sites{
+background-color: #2ba8b9;
+}
+
+.sistemas{
+background-color: #ff675a;
+}
+
+.projetos{
+background-color: #63bf9e ;
+}
+
+
+/* Seção Contatos */
+.contatos{
+    width: 40%;
+    padding: 30px;
+    float: left;
+    text-align: center;
+}
+
+.contatos > p{
+    font-size: 30px;
+}
+
+iframe{
+    width: 55%;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+/* Rodapé */
+footer{
+float:left;
+width: 100%;
+}
+
+footer > img{
+    width: 15%;
+    margin: 5% 40%;
+}
+
+
+/* Inicio do layout para dispositivos móveis */
+@media screen and (max-width: 950px){
+    .trabalhos > article{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 931px){
+    .sobre > h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 895px){
+    .sobre{
+        text-align: justify;
+        font-size: 1.1em;
+    }
+    .sobre > h1{
+        text-align: center;
+    }
+    .trabalhos > article{
+        width: 29.9%;
+    }
+}
+
+@media screen and (max-width: 871px){
+    .sobre > h1{
+        font-size: 2.9em;
+    }
+}
+
+@media screen and (max-width: 869px){
+    .sobre{
+        font-size: 1em;
+}
+    .trabalhos > article{
+        width: 29.8%;
+    }
+}
+
+@media screen and (max-width: 855px){
+    .sobre > img{
+        width: 100%;
+    }
+    .sobre > h1{
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width: 846px){
+    .trabalhos > article{
+        width: 29%;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .contatos > h1{
+        font-size: 2em;
+    }
+    .contatos > p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 695px){
+    .trabalhos > article{
+        width: 28%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .contatos{
+        float: none;
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 571px){
+    .trabalhos > article{
+        width: 27%;
+    }
+}
+
+@media screen and (max-width: 502px){
+    header > img{
+        float: none;
+    }
+    header > nav{
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* Cuida de toda a parte visual e de animação */
+/* Não trabalha com tag e sim com seletores */
+/* Regra do CSS - Seletor{propriedade:valor;} (MUITO IMPORTANTE) -- EXEMPLO:    Seletor(h1){propriedade(color):valor(#000);*/
+/* CSS Grid e Flexbox - ESTUDAR!!!  */
+/* PESQUISAR sobre Tipogrifias! */
+/* Box Model - É um modelo de caixa(div, section, article e etc), e toda caixa tem essas propriedades... O espaçamrento entre uma caixa e outra chamamos de Margin, o espaçamento entre o conteudo e o limite da caixa é chamado de padding, o limite da caixa(linha) é chamado de Border.  */
+/* Para Margin existem 4 propriedades possíveis(leve em consideração uma caixa quadrada) - Margin - top, Margin - Right, Margin - Bottom e Margin - Left! */
+/* Para padding existem 4 propriedades possíveis(leve em consideração uma caixa quadrada) - Padding - top, Padding - Right, Padding - Bottom e Padding - Left! */
+/* Configura-se em sentido horário!!! */
+/* (*) é um seletor universal, ou seja, o que for aplicado nele será de uso de todo o arquivo!!! Exemplo: 
+*{
+    box-sizing: border-box; 
+ }
+ Essa propriedade faz o calculo automsático para se enquadrar nos parâmetros especificados. */
+/* O valor auto (automatiza o espaçamento - Right e Left da caixa) */
+/* O valor (em) é o tamanho da letra M da fonte padrão do navegador. USAR VALORES PEQUENOS (WHAT FUCK???????) */
+/* Descendente Direto vs Descendente Indireto - Descendente Direto faz uso da (>) e atribui tal caracteristica a um seletor, diferente do Descendente Indireto que faz uso do (espaço) e atribui a caracteristica a todas as propriedades de um seletor. */
+/* id chamasse com (#) e class chamasse com (.) */
+/* A propriedade Overflow não permite barra de rolagem na caixa e controla o tamanho - quanto mais conteúdo dentro dela, maior ela vai ficando */
+/* diretivas são Midiaquerrys,... */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
