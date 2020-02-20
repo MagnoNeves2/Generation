@@ -7,9 +7,9 @@
     <title>Position Fixed</title>
 </head>
 
-<body>
+<body class="tela">
 
-
+<img src="fundogradient.png" alt="Fundo Gradiente" width="100%">
     <style>
         /* body {
             margin: 0;
@@ -40,32 +40,48 @@
             text-align: justify;
             line-height: 2em;
         } */
-
-
-
-        .posicao {
-            background-image: url('fundo.jpg');
-            background-repeat: no-repeat;
-            position: fixed;
-            top: 30%;
-            right: 40%;
+        
+        * {
+            margin: 0;
+            padding:0;
 
         }
+        .posicao {
+            position: fixed;
+            top: 150px;
+            right: 500px;
 
+        }
         .caixa {
-            border: 2px solid black;
+            border: 5px solid black;
             width: 400px;
-            height: 250px;
+            height: 300px;
             position: relative;
             margin: 50px;
+            border-radius: 40px;
+            box-shadow: 12px 10px 10px 0px black;
         }
-
-        .formulario {
+        .caixa-formulario {
             position: absolute;
             top: 10px;
             right: 100px;
         }
-
+        .formulario{
+            position: absolute;
+            top: 80px;
+            right: 3px;
+        }
+        .titulo{
+            font-size: 2.5em;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: #fff;
+            position: relative;
+            left: 45px;
+        }
+        .textos{
+            font-size: 1em;
+            color: white;
+        }
         .botao {
             width: 100px;
             position: absolute;
@@ -110,15 +126,15 @@
 
     <div class="posicao">
         <div class="caixa">
-            <div class="formulario">
-                <h1>CADASTRE-SE</h1>
-                <form action="https://www.google.com.br" method="get">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" name="nm"><br><br>
-                    <label for="email">Email</label>
-                    <input type="email" name="abacaxi" id="email"><br><br>
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha"><br><br>
+            <div class="caixa-formulario">
+                <h1 class="titulo">CADASTRE-SE</h1><br>
+                <form action="https://www.google.com.br" method="get" class="formulario">
+                    <label for="nome" class="textos">Nome</label>
+                    <p><input type="text" id="nome" name="nm"></p><br>
+                    <label for="email" class="textos">Email</label>
+                    <p><input type="email" name="abacaxi" id="email"></p><br>
+                    <label for="senha" class="textos">Senha</label>
+                    <p><input type="password" name="senha" id="senha"></p><br>
                     <input type="Submit" value="Cadastrar" class="botao">
                 </form>
 
