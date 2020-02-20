@@ -318,7 +318,7 @@ footer > img{
 *{
     box-sizing: border-box; 
  }
- Essa propriedade faz o calculo automsático para se enquadrar nos parâmetros especificados. */
+ Essa propriedade faz o calculo automático para se enquadrar nos parâmetros especificados. */
 /* O valor auto (automatiza o espaçamento - Right e Left da caixa) */
 /* O valor (em) é o tamanho da letra M da fonte padrão do navegador. USAR VALORES PEQUENOS (WHAT FUCK???????) */
 /* Descendente Direto vs Descendente Indireto - Descendente Direto faz uso da (>) e atribui tal caracteristica a um seletor, diferente do Descendente Indireto que faz uso do (espaço) e atribui a caracteristica a todas as propriedades de um seletor. */
