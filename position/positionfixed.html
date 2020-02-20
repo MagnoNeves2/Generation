@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed</title>
+</head>
+
+<body>
+
+
+    <style>
+        /* body {
+            margin: 0;
+        }
+
+        .topo {
+            box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+            padding: 15px 0;
+            width: 25%;
+            height: 10px;
+            transform: rotate(-90deg);
+            position: fixed;
+            top: 350px;
+            left: -220px;
+            background-color: cornsilk;
+            text-align: center;
+            font-weight: bold;
+            font-family: arial, verdana, sans-serif;
+
+        }
+
+        p {
+            max-width: 1000px;
+            min-width: 500px;
+            margin: 0 auto;
+            padding: 0 40px;
+            font-size: 2em;
+            text-align: justify;
+            line-height: 2em;
+        } */
+
+
+
+        .posicao {
+            background-image: url('fundo.jpg');
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 30%;
+            right: 40%;
+
+        }
+
+        .caixa {
+            border: 2px solid black;
+            width: 400px;
+            height: 250px;
+            position: relative;
+            margin: 50px;
+        }
+
+        .formulario {
+            position: absolute;
+            top: 10px;
+            right: 100px;
+        }
+
+        .botao {
+            width: 100px;
+            position: absolute;
+            right: 48px;
+            background-color: darkgreen;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+
+    <!-- <div class="topo">Topo fixo. Isso pode ser um cabeçalho.</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p> -->
+
+    <div class="posicao">
+        <div class="caixa">
+            <div class="formulario">
+                <h1>CADASTRE-SE</h1>
+                <form action="https://www.google.com.br" method="get">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nm"><br><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="abacaxi" id="email"><br><br>
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha"><br><br>
+                    <input type="Submit" value="Cadastrar" class="botao">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- Os comando de right, left, bottom e right afastam-se das superficies -->
+<!-- a Tag form tem um atributo de ação (action) que me diz oq acontecerá ou para onde irá aquilo -->

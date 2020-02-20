@@ -1,0 +1,24 @@
+.pai{
+    border: 1px solid #0ab4e2;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+}
+
+.filho{
+    border: 1px solid black;
+    width: 311px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.primo{
+    border: 1px solid cyan;
+    width: 311px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin: 0;
+}
