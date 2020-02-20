@@ -10,6 +10,9 @@
 <body class="tela">
 
 <img src="fundogradient.png" alt="Fundo Gradiente" width="100%">
+<body>
+
+
     <style>
         /* body {
             margin: 0;
@@ -62,6 +65,27 @@
             box-shadow: 12px 10px 10px 0px black;
         }
         .caixa-formulario {
+
+
+
+        .posicao {
+            background-image: url('fundo.jpg');
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 30%;
+            right: 40%;
+
+        }
+
+        .caixa {
+            border: 2px solid black;
+            width: 400px;
+            height: 250px;
+            position: relative;
+            margin: 50px;
+        }
+
+        .formulario {
             position: absolute;
             top: 10px;
             right: 100px;
@@ -82,6 +106,7 @@
             font-size: 1em;
             color: white;
         }
+
         .botao {
             width: 100px;
             position: absolute;
@@ -135,6 +160,15 @@
                     <p><input type="email" name="abacaxi" id="email"></p><br>
                     <label for="senha" class="textos">Senha</label>
                     <p><input type="password" name="senha" id="senha"></p><br>
+            <div class="formulario">
+                <h1>CADASTRE-SE</h1>
+                <form action="https://www.google.com.br" method="get">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nm"><br><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="abacaxi" id="email"><br><br>
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha"><br><br>
                     <input type="Submit" value="Cadastrar" class="botao">
                 </form>
 
