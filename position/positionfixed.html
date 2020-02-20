@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed</title>
+</head>
+
+<body class="tela">
+
+<img src="fundogradient.png" alt="Fundo Gradiente" width="100%">
+    <style>
+        /* body {
+            margin: 0;
+        }
+
+        .topo {
+            box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+            padding: 15px 0;
+            width: 25%;
+            height: 10px;
+            transform: rotate(-90deg);
+            position: fixed;
+            top: 350px;
+            left: -220px;
+            background-color: cornsilk;
+            text-align: center;
+            font-weight: bold;
+            font-family: arial, verdana, sans-serif;
+
+        }
+
+        p {
+            max-width: 1000px;
+            min-width: 500px;
+            margin: 0 auto;
+            padding: 0 40px;
+            font-size: 2em;
+            text-align: justify;
+            line-height: 2em;
+        } */
+        
+        * {
+            margin: 0;
+            padding:0;
+
+        }
+        .posicao {
+            position: fixed;
+            top: 150px;
+            right: 500px;
+
+        }
+        .caixa {
+            border: 5px solid black;
+            width: 400px;
+            height: 300px;
+            position: relative;
+            margin: 50px;
+            border-radius: 40px;
+            box-shadow: 12px 10px 10px 0px black;
+        }
+        .caixa-formulario {
+            position: absolute;
+            top: 10px;
+            right: 100px;
+        }
+        .formulario{
+            position: absolute;
+            top: 80px;
+            right: 3px;
+        }
+        .titulo{
+            font-size: 2.5em;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: #fff;
+            position: relative;
+            left: 45px;
+        }
+        .textos{
+            font-size: 1em;
+            color: white;
+        }
+        .botao {
+            width: 100px;
+            position: absolute;
+            right: 48px;
+            background-color: darkgreen;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+
+    <!-- <div class="topo">Topo fixo. Isso pode ser um cabeçalho.</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates temporibus ducimus! Voluptatem,
+        delectus voluptate. Quibusdam, error fuga odit nam quaerat eos. Rem id excepturi vero voluptatem accusantium
+        cupiditate eaque.</p> -->
+
+    <div class="posicao">
+        <div class="caixa">
+            <div class="caixa-formulario">
+                <h1 class="titulo">CADASTRE-SE</h1><br>
+                <form action="https://www.google.com.br" method="get" class="formulario">
+                    <label for="nome" class="textos">Nome</label>
+                    <p><input type="text" id="nome" name="nm"></p><br>
+                    <label for="email" class="textos">Email</label>
+                    <p><input type="email" name="abacaxi" id="email"></p><br>
+                    <label for="senha" class="textos">Senha</label>
+                    <p><input type="password" name="senha" id="senha"></p><br>
+                    <input type="Submit" value="Cadastrar" class="botao">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- Os comando de right, left, bottom e right afastam-se das superficies -->
+<!-- a Tag form tem um atributo de ação (action) que me diz oq acontecerá ou para onde irá aquilo -->
