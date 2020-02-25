@@ -6,121 +6,229 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilo.css">
-    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d267c2ac6.js" crossorigin="anonymous"></script>
     <title>Layout Slack</title>
 </head>
 
 <body>
-    <!-- Acessar o Font Awesome -->
-    <i class="fas fa-user">Alo</i> <!-- uses solid style -->
-    <i class="far fa-user"></i> <!-- uses regular style -->
-    <i class="fal fa-user"></i> <!-- uses light style -->
-    <!--brand icon-->
-    <i class="fab fa-github-square"></i> <!-- uses brands style -->
-    <i class="fas fa-arrow-right"></i>
+    <main>
+        <!-- Menu e cabeçalho -->
+        <header>
+            <div class="cabeçalho">
+                <img src="./css/img/logo.svg" alt="Logotipo da Slack">
+                <nav>
+                    <ul>
+                        <li><a href="#">Por que o Slack?</a></li>
+                        <li><a href="#">Soluções</a></li>
+                        <li><a href="#">Recursos</a></li>
+                        <li><a href="#">Preços</a></li>
+                    </ul>
+                    <div>
+                        <button type="button">Entrar</button>
+                        <button type="button" id="cor-botão">Primeiro Passos</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
+        <!-- Seção de Conteúdo (SOBRE1) -->
+        <section class="introdução">
 
+            <div id="imagem">
+                <img src="./css/img/Slack-Customer-Autodesk-BW.jpg" alt="Imagem que retrata uma mulher e um homem"
+                    class="img-autodesk">
+                <div id="titulo">
+                    <h1 id="estilo-titulo">Imagine o que você e sua<br>equipe poderão fazer juntos</h1>
+                    <img src="./css/img/slack-customer-trivago.jpg" alt="Imagem com a representação de uma praia"
+                        class="img-trivago">
+                    <p id="textinho">A Trivago cria uma experiência melhor para o funcionário com o Slack</p>
+                </div>
+            </div>
 
+            <img src="./css/img/slack-customer-hellofresh.jpg" alt="Imagem que contém muitos alimentos"
+                class="img-hellofresh">
 
+            <div id="captação">
+                <p>O Slack é um espaço de colaboração para todos os tipos de equipes. É onde as conversas acontecem, as
+                    decisões são tomadas e as informações estão sempre disponíveis. Com o Slack, sua equipe está melhor
+                    conectada.</p>
+                <div>
+                    <input type="email" placeholder="Endereço de e-mail">
+                    <button type="button">PRIMEIROS PASSOS</button>
+                    <br><br>
+                    <p>Já está usando o Slack?<a href="#"> Entre.</a></p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Seção de Conteúdo (SOBRE2) -->
+        <section class="funcionamento">
+            <h1>Seu espaço para trabalhar em equipe</h1>
+            <p>Discussões sobre projetos, documentos importantes, anúncios de refeições gratuitas - tudo isso reunido
+                e
+                organizado no Slack. Com sua equipe e as informações em um local facilmente pesquisavél, colaborar
+                on-line é
+                tão fácil quanto colocar pessoalmente.</p>
+            <article class="canais">
+                <img src="./css/img/organized-convos.png" alt="Imagem de balões de comunicação" class="img-canais">
+                <h2>Canais</h2>
+                <p><a href="#">A comunicação no Slack</a> ocorre em canais organizados por projetos, assuntos, equipes
+                    ou o
+                    que fizer mais
+                    sentido para você.</p>
+            </article>
 
+            <article class="pesquisar">
+                <img src="./css/img/search-binoculars.png" alt="Imagem de um binóculo" class="img-pesquisar">
+                <h2>Pesquisar</h2>
+                <p>No Slack, <a href="#">todos podem pesquisar</a> as conversas. Assim, você pode explorar o
+                    conhecimento da
+                    empresa e
+                    localizar as informações necessárias.</p>
+            </article>
 
+            <article class="integrações">
+                <img src="./css/img/apps-gears.png" alt="imagem de uma engrenagem" class="img-integrações">
+                <h2>Integrações</h2>
+                <p>O Slack é compatível com as <a href="#">ferramentas e serviços que você já usa</a> diariamente.
+                    Adicione
+                    informações ou execute ações sem sair do Slack.</p>
+            </article>
 
-    <!-- Menu e cabeçalho -->
-    <header>
-        <img src="./css/img/logo.svg" alt="Logotipo da Slack">
-        <nav>
-            <ul>
-                <li><a href="#">Por que o Slack?</a></li>
-                <li><a href="#">Soluções</a></li>
-                <li><a href="#">Recursos</a></li>
-                <li><a href="#">Preços</a></li>
-            </ul>
-            <button type="button">Entrar</button>
-            <button type="button">Primeiro Passos</button>
-        </nav>
-    </header>
+            <article class="segurança">
+                <img src="./css/img/security-lock.png" alt="Imagem de um cadeado" class="img-segurança">
+                <h2>Segurança</h2>
+                <p>No Slack, levamos a <a href="#">Segurança</a> muito a sério. Oferecemos recursos como A2F e SSO para
+                    garantir a segurança dos seus dados e proteger sua organização.</p>
+            </article>
+            <div id="saiba-mais">
+                <p><a href="#">Saiba mais sobre os recursos do Slack</a>&nbsp;&nbsp;<i class="fas fa-arrow-right"
+                        class="seta"></i></p>
+            </div>
 
-    <!-- Seção de Conteúdo (SOBRE1) -->
-    <section>
-        <h1>Imagine o que você e sua equipe poderão fazer juntos</h1>
-        <img src="./css/img/slack-customer-trivago.jpg" alt="Imagem com a representação de uma praia">
-        <img src="./css/img/Slack-Customer-Autodesk-BW.jpg" alt="Imagem que retrata uma mulher e um homem">
-        <img src="./css/img/slack-customer-hellofresh.jpg" alt="Imagem que contém muitos alimentos">
-        <div>
-            <p>O Slack é um espaço de colaboração para todos os tipos de equipes. É onde as conversas acontecem, as
-                decisões são tomadas e as informações estão sempre disponíveis. Com o Slack, sua equipe está melhor
-                conectada.</p>
-            <input type="email" placeholder="Endereço de e-mail">
+        </section>
+
+        <!-- seção de Conteúdo (SOBRE3) -->
+        <section class="parceiros">
+            <div>
+                <h1>Você está bem acompanhado</h1>
+                <P>milhões de pessoas em todo o mundo já tornaram o Slack o lugar onde o<br> trabalho em equipe
+                    acontece.</P>
+            </div>
+            <article id="bloco">
+                <div class="trivago">
+                    <img src="./css/img/slack-customer-trivago.jpg" alt="Imagem com a representação de uma praia"
+                        width="200" height="250">
+                    <img src="./css/img/logo-trivago.png" alt="Imagem da logo da Trivago" id="logo-trivago">
+                    <p>Criação de uma experiência melhor para o funcionário com o Slack</p>
+                </div>
+                <i class="fas fa-arrow-right" id="seta1"></i>
+            </article>
+
+            <article id="bloco2">
+                <div class="autodesk">
+                    <img src="css/img/slack-customer-autodesk.jpg"
+                        alt="imagem com um homem fazendo a medição de um equipamento" width="200" height="250">
+                    <img src="css/img/autodesk.png" alt="Imagem da logo da Autodesk" id="logo-autodesk">
+                    <p>União entre experiência do produto e cultura da empresa na Autodesk</p>
+                </div>
+                <i class="fas fa-arrow-right" id="seta2"></i>
+            </article>
+
+            <article id="bloco3">
+                <div class="liberty">
+                    <img src="css/img/slack-customer-liberty-mutual.jpg" alt="Imagem com diversas boias" width="200"
+                        height="250">
+                    <img src="css/img/liberty-mutual.png" alt="Imagem da logo da Liberty Mutual" id="logo-liberty">
+                    <p>Modernização da comunicação das equipes</p>
+                </div>
+                <i class="fas fa-arrow-right" id="seta3"></i>
+            </article>
+            <div class="logos">
+                <img src="css/img/nextel.png" alt="Logotipo da Nextel" width="100" height="40">
+                <img src="css/img/lyft.png" alt="Logotipo da Lyft" width="100" height="40">
+                <img src="css/img/hellofresh-alt.png" alt="Logotipo da Hellofresh" width="120" height="40">
+                <img src="css/img/stone.png" alt="Logotipo da Stone" width="120" height="40">
+                <img src="css/img/ocado.png" alt="Logotipo da Ocado Technology" width="130" height="40">
+            </div>
+        </section>
+
+        <div class="teste">
+            <h1>Teste o Slack gratuitamente com sua equipe</h1>
             <button type="button">PRIMEIROS PASSOS</button>
-            <p>Já está usando o Slack?<a href="#"> Entre.</a></p>
         </div>
-    </section>
 
-    <!-- Seção de Conteúdo (SOBRE2) -->
-    <section>
-        <h1>Seu espaço para trabalhar em equipe</h1>
-        <p>Discussões sobre projetos, documentos importantes, anúncios de refeições gratuitas<br>- tudo isso reunido e
-            organizado no Slack. Com sua equipe e as informações em um local facilmente pesquisavél, colaborar on-line é
-            tão fácil quanto colocar pessoalmente.</p>
-        <article>
-            <img src="./css/img/organized-convos.png" alt="Imagem de balões de comunicação">
-            <h2>Canais</h2>
-            <p><a href="#">A comunicação no Slack</a> ocorre em canais organizados por projetos, assuntos, equipes ou o
-                que fizer mais
-                sentido para você.</p>
-        </article>
+        <!-- seção do Rodapé -->
+        <footer class="rodape">
+            <img src="css/img/logomini.svg" alt="Logotipo da Slack" width="60" height="60">
+            <article class="produto">
+                <h1>PRODUTO</h1>
+                <ul>
+                    <li><a href="#">Por que o Slack?</a></li>
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Segurança</a></li>
+                    <li><a href="#">Histórias de clientes</a></li>
+                    <li><a href="#">Preços</a></li>
+                    <li><a href="#">Demonstração do Slack</a></li>
+                </ul>
+            </article>
 
-        <article>
-            <img src="./css/img/search-binoculars.png" alt="Imagem de um binóculo">
-            <h2>Pesquisar</h2>
-            <p>No Slack, <a href="#">todos podem pesquisar</a> as conversas. Assim, você pode explorar o conhecimento da
-                empresa e
-                localizar as informações necessárias.</p>
-        </article>
-
-        <article>
-            <img src="./css/img/apps-gears.png" alt="imagem de uma engrenagem">
-            <h2>Integrações</h2>
-            <p>O Slack é compatível com as <a href="#">ferramentas e serviços que você já usa</a> diariamente. Adicione
-                informações ou execute ações sem sair do Slack.</p>
-        </article>
-
-        <article>
-            <img src="./css/img/security-lock.png" alt="Imagem de um cadeado">
-            <h2>Segurança</h2>
-            <p>No Slack, levamos a <a href="#">Segurança</a> muito a sério. Oferecemos recursos como A2F e SSO para
-                garantir a segurança dos seus dados e proteger sua organização.</p>
-        </article>
-        <p><a href="#">Saiba mais sobre os recursos do Slack.</a></p>
-    </section>
-
-    <!-- seção de Conteúdo (SOBRE3) -->
-    <section>
-        <article>
-            <img src="" alt="">
-            <img src="" alt="">
-            <p>Criação de uma experiência melhor para o funcionário com o Slack</p>
-        </article>
-
-        <article>
-            <img src="" alt="">
-            <img src="" alt="">
-            <p></p>
-        </article>
-
-        <article>
-            <img src="" alt="">
-            <img src="" alt="">
-            <p></p>
-        </article>
-
-    </section>
+            <article class="equipes">
+                <h1>SLACK PARA EQUIPES</h1>
+                <ul>
+                    <li><a href="#">Engenharia</a></li>
+                    <li><a href="#">TI</a></li>
+                    <li><a href="#">Suporte ao cliente</a></li>
+                    <li><a href="#">Vendas</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Gerenciamento de projetos</a></li>
+                    <li><a href="#">recursos humanos</a></li>
+                </ul>
+            </article>
 
 
+            <article class="recursos">
+                <h1>RECURSOS</h1>
+                <ul>
+                    <li><a href="#">Baixar o Slack</a></li>
+                    <li><a href="#">E-books e relatórios</a></li>
+                    <li><a href="#">Diretório de apps</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                </ul>
+            </article>
 
 
+            <article class="empresa">
+                <h1>EMPRESA</h1>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Liderança</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Kit de mídia</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                </ul>
+            </article>
 
+        </footer>
+        <div class="final">
+            <ul>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Privacidade e Termos</a></li>
+                <li><a href="#">fale conosco</a></li>
+                <li><i class="fas fa-globe"></i>&nbsp;&nbsp;<a href="#">Alterar região</a></i></li>
+            </ul>
+            <div class="redes-sociais">
+                <nav>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                </nav>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
