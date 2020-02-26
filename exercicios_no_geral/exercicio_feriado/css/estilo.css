@@ -862,15 +862,21 @@ h2{
         
     }
 
+<<<<<<< HEAD:exercicios_no_geral/exercicio_feriado/css/estilo.css
     #captação > span{
         visibility: visible;
     } 
+=======
+>>>>>>> f94f5c4... Conclusão do exercicio do feriado:exercicio_feriado/css/estilo.css
     #captação > p{
         width: 300px;
         font-size: 1em;
         position: relative;
         left: 90px;
+<<<<<<< HEAD:exercicios_no_geral/exercicio_feriado/css/estilo.css
         visibility: hidden;
+=======
+>>>>>>> f94f5c4... Conclusão do exercicio do feriado:exercicio_feriado/css/estilo.css
     }
 
     #captação > div > input{
