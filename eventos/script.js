@@ -3,9 +3,9 @@ let btn1 = document.getElementById("btn1");
 
 
 // EXEMPLO1
-// btn.addEventListener("click", () => {
-//     alert("Patrick, trouxe comida?")
-// })
+btn.addEventListener("click", () => {
+    alert("Patrick, trouxe comida?")
+})
 
 
 // EXEMPLO2
@@ -19,13 +19,13 @@ btn.addEventListener("click", () => {
 });
 
 // EXEMPLO que atribui uma cor
-btn1.addEventListener("click", () => {
-    document.body.style.backgroundColor = "red";
-})
+// btn1.addEventListener("click", () => {
+//     document.body.style.backgroundColor = "red";
+// })
 
-btn1.addEventListener("mouseout", () => {
-    document.body.style.backgroundColor = "white";
-})
+// btn1.addEventListener("mouseout", () => {
+//     document.body.style.backgroundColor = "white";
+// })
 
 // Arrow Function
 const ShowMessage = () => {

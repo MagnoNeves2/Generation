@@ -32,6 +32,10 @@ header{
     width: 110px;
 }
 
+#menu{
+    visibility: hidden;
+}
+
 .cabeçalho > nav{
     position: absolute;
     left: 170px;
@@ -146,6 +150,10 @@ h2{
     top: 240px;
     right: 140px;
 }
+
+#captação > span{
+    visibility: hidden;
+ }
 
 #captação > p{
     width: 500px;
@@ -621,6 +629,565 @@ h2{
     left: 1200px;
 }
 
+@media screen and (max-width: 1440px){
+    .cabeçalho > nav > div{
+        left: 870px;
+    } 
+
+    .funcionamento > h1{
+        position: relative;
+        left: -30px;
+    }
+    .funcionamento > p{
+        left: 380px;
+    }
+    
+    .funcionamento{
+        left: 70px;
+    }
+
+    #saiba-mais{
+        right: 610px;
+    }
+
+    #bloco{
+        position: relative;
+        left: 120px;
+    }
+
+    #bloco2{
+        position: relative;
+        left: 510px;
+    }
+
+    #bloco3{
+        position: relative;
+        left: 795px;
+    }
+
+    .logos{
+        left: 90px;
+    }
+
+    .teste > button{
+        left: 620px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .cabeçalho > nav > div{
+        left: 600px;
+    } 
+
+    #estilo-titulo{
+        font-size: 1.3em;
+        position: relative;
+        top: 40px;
+    }
+
+    .img-trivago{
+        width: 350px;
+        height: 350px;
+    }
+
+    #textinho{
+        top: 450px;
+        font-size: 0.3em;
+    }
+
+    .img-hellofresh{
+        width: 200px;
+        height: 200px;
+        right: 200px;
+    }
+
+    #captação{
+        right: -20px;
+    }
+
+    #captação > p{
+        width: 350px;
+        position: relative;
+        left: 80px;
+    }
+
+    #captação > div > input{
+        width: 150px;
+        height: 50px;
+    }
+
+    #captação > div > button{
+        width: 150px;
+        height: 50px;
+        font-size: 0.8em;
+    }
+
+    #captação > div{
+        left: 85px;
+    }
+
+    .funcionamento{
+        height: 1200px;
+    }
+    .funcionamento > p{
+        left: 175px;
+    }
+
+    .canais{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        bottom: 80px; 
+    }
+    .pesquisar{
+        width: 200px;
+        height: 200px;
+        bottom: 281px;
+        left: 250px;
+    }
+
+    .integrações{
+        width: 200px;
+        height: 200px;
+        bottom: 481px;
+        left: 500px;
+    }
+
+    .segurança {
+        width: 200px;
+        height: 200px;
+        bottom: 681px;
+        left: 740px;
+    }
+
+    #saiba-mais{
+        top: 520px;
+        left: 300px;
+        width: 300px;
+    }
+
+    #bloco{
+        left: -100px;
+    }
+    
+    #bloco2{
+        left: 320px;
+    }
+
+    #bloco3{
+        left: 630px;
+    }
+
+    .logos{
+        left: 0px;
+    }
+
+    .logos > img{
+        margin: 0px 35px;
+    }
+
+    .teste > button{
+        left: 400px;
+    }
+
+    .produto{
+        left: 170px;
+    }
+
+    .equipes{
+        left: 370px;
+    }
+
+    .recursos{
+        left: 670px;
+    }
+
+    .empresa{
+        left: 860px;
+    }
+
+    .redes-sociais{
+        left: 890px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cabeçalho > nav > ul > li{
+        padding: 8px;
+    }
+    .cabeçalho > nav > div{
+        left: 400px;
+    } 
+
+    #estilo-titulo{
+        font-size: 1em;
+        position: relative;
+        top: 55px;
+        right: 100px;
+    }
+
+    .img-autodesk{
+        width: 160px;
+        height: 160px;
+    }
+
+    .img-trivago{
+        width: 250px;
+        height: 250px;
+        top: 155px;
+        left: -130px;
+    }
+
+    #textinho{
+        top: 330px;
+        left: -130px;
+        font-size: 0.22em;
+    }
+
+    .img-hellofresh{
+        width: 200px;
+        height: 200px;
+        top: 360px;
+        right: 120px;
+    }
+
+    #captação{
+        top: 200px;
+        right: -90px;
+    }
+    
+    #captação > div{
+        top: 100px;
+        left: 90px;
+        
+    }
+
+    #captação > p{
+        width: 300px;
+        font-size: 1em;
+        position: relative;
+        left: 90px;
+    }
+
+    #captação > div > input{
+        width: 150px;
+        height: 30px;
+    }
+
+    #captação > div > button{
+        width: 150px;
+        height: 30px;
+        font-size: 0.7em;
+    }
+
+    .funcionamento{
+        height: 1500px;
+    }
+    
+    .funcionamento > h1{
+        left: -50px;
+    }
+
+    .funcionamento > p{
+        left: 30px;
+    }
+
+    .canais{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        bottom: 80px; 
+    }
+    .pesquisar{
+        width: 200px;
+        height: 200px;
+        bottom: 281px;
+        left: 430px;
+    }
+
+    .integrações{
+        width: 200px;
+        height: 200px;
+        bottom: 170px;
+        left: 20px;
+    }
+
+    .segurança {
+        width: 200px;
+        height: 200px;
+        bottom: 373px;
+        left: 430px;
+    }
+
+    #saiba-mais{
+        top: 850px;
+        left: 190px;
+        width: 300px;
+    }
+
+    #bloco{
+        left: -180px;
+    }
+    
+    #bloco2{
+        left: 175px;
+    }
+
+    #bloco3{
+        left: 430px;
+    }
+
+    .logos{
+        left: -60px;
+    }
+
+    .logos > img{
+        margin: 0px 15px;
+    }
+
+    .teste > button{
+        left: 275px;
+    }
+
+    .produto{
+        font-size: 0.7em;
+        left: 150px;
+    }
+
+    .equipes{
+        font-size: 0.7em;
+        bottom: 223px;
+        left: 290px;
+    }
+
+    .recursos{
+        font-size: 0.7em;
+        bottom: 545px;
+        left: 500px;
+    }
+
+    .empresa{
+        font-size: 0.7em;
+        bottom: 828px;
+        left: 650px;
+    }
+
+    .redes-sociais{
+        left: 600px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .cabeçalho > img{
+        width: 100px;
+        height: 100px;
+        top: -30px;
+        left: 20px;
+    }
+
+    .cabeçalho > nav{
+        visibility: hidden;
+    }
+
+    #menu{
+        visibility: visible;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    #imagem{
+        left: 0px;
+    }
+
+    .img-autodesk{
+        width: 130px;
+        height: 130px;
+    }
+
+    #estilo-titulo{
+        font-size: 0.6em;
+        font-weight: bolder;
+        top: -100px;
+        left: -130px;
+    }
+
+    #captação > span{
+        visibility: visible;
+        font-size: 0.8em;
+        position: absolute;
+        top: -200px;
+        right: 192px;
+    }
+
+    #captação > p{
+        visibility: hidden;
+    }
+
+    #captação > div{
+        top: -170px;
+        left: 40px;
+        width: 500px;
+    }
+
+    #captação > div > input{
+        width: 300px;
+        height: 50px;
+    }
+
+    #captação > div > button{
+        margin-top: 5px;
+        width: 300px;
+        height: 50px;
+        position: relative;
+        left: -10px;
+    }
+
+    #captação > div > p{
+        visibility: hidden;
+    }
+
+    .img-trivago{
+        width: 300px;
+        height: 300px;
+        top: 180px;
+        left: -140px;
+    }
+
+    #textinho{
+        font-size: 0.25em;
+        top: 435px;
+        left: -140px;
+    }
+
+    .img-hellofresh{
+        width: 120px;
+        height: 120px;
+        top: 270px;
+        left: 380px;
+    }
+
+    .funcionamento{
+        height: 1900px;
+    }
+    .funcionamento > h1{
+        font-size: 1.4em;
+        font-weight: bolder;
+        bottom: 150px;
+        left: -65px;
+    }
+
+    .funcionamento > p{
+        visibility: hidden;
+    }
+
+    .canais{
+        bottom: 340px;
+        right: 50px;
+    }
+
+    .pesquisar{
+        bottom: 250px;
+        left: -30px;
+    }
+
+    .integrações{
+        bottom: 150px;
+        left: -30px;
+    }
+
+    .segurança{
+        bottom: 40px;
+        left: -30px;
+    }
+
+    #saiba-mais{
+        top: 1150px;
+        left: -50px;
+    }
+
+    .parceiros{
+        height: 2200px;
+    }
+
+    .parceiros > div > p{
+        font-size: 0.9em;
+    }
+
+    #bloco{
+        left: -100px;
+    }
+
+    #bloco2{
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #bloco3{
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .logos{
+        bottom: 0px;
+    }
+
+    .logos > img{
+        margin: 0px 40px;
+        padding: 5px;
+    }
+
+    .teste > h1{
+        width: 700px;
+        font-size: 1.5em;
+        text-align: left;
+        position: relative;
+        right: 130px;
+    }
+
+    .teste > button{
+        width: 350px;
+        left: 35px;
+    }
+
+    .rodape{
+        height: 1100px;
+    }
+    .produto{
+        left: 40px;
+        top: 120px;
+        line-height: 0px;
+    }
+
+    .equipes{
+        left: 40px;
+        top: 150px;
+        line-height: 0px;
+    }
+
+    .recursos{
+        left: 40px;
+        top: 180px;
+        line-height: 0px;
+    }
+
+    .empresa{
+        left: 40px;
+        top: 210px;
+        line-height: 0px;
+    }
+
+    .final{
+        height: 100px;
+        line-height: 20px;
+        padding: 5px 70px;
+    }
+
+    .redes-sociais{
+        left: 100px;
+        top: 30px;
+    }
+}
 
 
 
