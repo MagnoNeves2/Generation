@@ -862,11 +862,15 @@ h2{
         
     }
 
+    #captação > span{
+        visibility: visible;
+    } 
     #captação > p{
         width: 300px;
         font-size: 1em;
         position: relative;
         left: 90px;
+        visibility: hidden;
     }
 
     #captação > div > input{
