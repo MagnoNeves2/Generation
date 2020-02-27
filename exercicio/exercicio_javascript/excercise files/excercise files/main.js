@@ -47,5 +47,32 @@
 
 // console.log('O resultado é: ' + resultado);
 
-//Resolução do 3° da Parte 2
 
+
+
+
+//Resolução do 2° da Parte 2
+let nome = prompt('Informe um nome para verificação:');
+
+document.querySelector('nome')
+
+
+
+
+
+
+
+
+
+
+
+
+//Resolução do 3° da Parte 2
+// let nome = "magnomagno ";
+// let letras = nome.split('')
+
+// for (let i = 0; i <= 10; i++) {
+//         for (let j = 10; j >= 0; j--) {
+//             console.log(letras[i] + letras[j]);
+//         }
+//     }
