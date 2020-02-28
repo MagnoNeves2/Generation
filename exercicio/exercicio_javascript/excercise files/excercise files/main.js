@@ -40,39 +40,87 @@
 //     }
 // }
 
+
 //Resolução do 1°exercício da Parte 2
 // let num = "32243";
 // let resultado = num.split("").reverse("").join("");
-
-
 // console.log('O resultado é: ' + resultado);
 
 
-
-
-
 //Resolução do 2° da Parte 2
-let nome = prompt('Informe um nome para verificação:');
+// function palindromo() {
+//     let nomeInformado = document.getElementById('nome').value;
+//     let inverso = nomeInformado.split('').reverse('').join('');
 
-document.querySelector('nome')
+//     if (inverso == nomeInformado) {
+//         document.write("Esse nome é um Palíndromo! Meus parabéns 🤯 ");
+//     }
 
+//     else {
+//         document.write('Esse nome não é um Palíndromo! 🌚 ')
+//     }
+// }
 
+// document.querySelector('#btnVerificador').addEventListener('click', () => {
+//     palindromo();
+// });
 
-
-
-
-
-
-
-
+// document.getElementById('nome').addEventListener('keypress', (event) => {
+//     if (event.key == 'Enter') {
+//         palindromo();
+//     }
+// });
 
 
 //Resolução do 3° da Parte 2
 // let nome = "magnomagno ";
 // let letras = nome.split('')
-
 // for (let i = 0; i <= 10; i++) {
-//         for (let j = 10; j >= 0; j--) {
-//             console.log(letras[i] + letras[j]);
-//         }
+//     for (let j = 10; j >= 0; j--) {
+//         console.log(letras[i] + letras[j]);
 //     }
+// }
+
+
+//Resolução do 4° da Parte 2
+// function resolucao() {
+//     let palavraInserida = document.getElementById('palavra').value;
+//     let palavraPartida = palavraInserida.split('');
+//     let palavraOrdem = palavraPartida.sort();
+//     document.write('A palavra em ordem alfabética é: ' + palavraOrdem)
+// }
+
+// document.getElementById('btnConversor').addEventListener('click', () => {
+//     resolucao();
+// });
+
+// document.querySelector('#palavra').addEventListener('keypress', (event) => {
+//     if (event.key == 'Enter') {
+//         resolucao();
+//     }
+// });
+
+// Resolução do 5° da Parte 2
+// function maiusculo(texto) {
+//     let linha = texto.split(' ');
+//     let novaLinha = [];
+
+//     for (let correr = 0; correr < linha.length; correr++) {
+//         novaLinha.push(linha[correr].charAt(0).toUpperCase() + linha[correr].slice(1));
+//     }
+//     return novaLinha.join(' ');
+// }
+// console.log(maiusculo("magno de oliveira neves"));
+
+// Resolução do 6° da Parte 2
+function maior(texto) {
+    let palavra = texto.split(' ');
+    let maiorPalavra = "";
+    for (x = 0; x < palavra.length; X++) {
+        if () {
+
+        }
+    }
+
+
+}
