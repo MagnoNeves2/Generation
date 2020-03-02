@@ -1,0 +1,98 @@
+main{
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.cabeçalho{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.introdução{
+    display: block;
+}
+
+.introdução > p{
+    font-size: 1.6em;
+    padding-bottom: 70px;
+}
+
+.navegador{
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+}
+
+.navegador > ul{
+    width: 100%;
+    display: block;
+    list-style: none;
+}
+
+.navegador > ul > li{
+    display: inline;
+    margin: 0px 100px;
+}
+
+.feedback{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    background: cyan;
+    transform: rotate(-90deg);
+    position: fixed;
+    right: -40px;
+}
+
+.feedback > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.lema{
+    width: 100%;
+    height: auto;
+    display:block;
+    overflow: hidden;
+    margin: 100px 0px;
+}
+
+.lema > div{
+    width: auto;
+    margin: 50px;
+    line-height: 50px;
+}
+
+.lema > div > h1{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.lema > div > h2{
+    font-size: 3.1em;
+    color: #7a7a7a;
+}
+
+.lema > img{
+    width: auto;
+}
+
+.incentivo{
+    width: 100%;
+    display: block;
+    margin: 100px;
+}
+
+.incentivo > span{
+    font-size: 6em;
+    
+}
+
