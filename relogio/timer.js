@@ -67,3 +67,4 @@ function setZero(value) {
 
 updateTime();
 
+let currentTime = document.getElementById('currtime');
