@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html, body{
+    margin: 0px;
+    background: #2b2927;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.container-all{
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container{
+    width: calc(33% - 6px);
+    overflow: hidden;
+    height: auto;
+    margin: 3px auto;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+section.container > img{
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    transition-duration: .3s;
+}
+
+.title{
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: 35%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-shadow: 1px 5px 10px black;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition-duration: .3s;
+    display: none;
+}
+
+.text{
+    position: absolute;
+    top: 70%;
+    cursor: pointer;
+    max-width: 80%;
+    text-align: center;
+    left: 50%;
+    margin-right: -50%;
+    font-size: 1em;
+    text-shadow: 1px 5px 10px black;
+    transform: translate(-50%, -50%);
+    transition-duration: .3s;
+    display: none;
+}
+
+.container:hover img{
+    transform: scale(1.2);
+    transition-duration: .3s;
+    filter: grayscale(50%);
+    opacity: 0.7;
+}
+
+.container:hover span{
+    display: block;
+    color: white;
+    transition-duration: .3s;
+}

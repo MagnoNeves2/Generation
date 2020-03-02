@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulário HTML com LocalStorage</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+            <option selected disabled>Selecione um estado:</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="BA">Bahia</option>
+        </select>
+        <label for="dataInicio">Início</label>
+        <input type="date" id="dataInicio" name="dataInicio">
+        <label for="dataFinal">Final</label>
+        <input type="date" id="dataFinal" name="dataFinal">
+        <input type="button" value="Adicionar" id="add">
+        <input type="button" value="Excluir" id="delete">
+    </form>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
