@@ -1,4 +1,20 @@
-main{
+.cabeçalho{
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.introdução{
+    margin: 0px 10px;
+    background: #fff;
+}
+
+
+
+
+/* main{
     width: 100%;
     margin: 20px auto;
     height: auto;
@@ -94,5 +110,5 @@ main{
 .incentivo > span{
     font-size: 6em;
     
-}
+} */
 
