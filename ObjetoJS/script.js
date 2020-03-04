@@ -45,4 +45,4 @@ document.getElementById('acelerar').addEventListener('click', () => {
 
 // mycar é um objeto ("classe")
 // prototype é usado para criar "algo" em função do objeto.
-// this serve para chamar a propriedade.
+// this serve para criar uma propriedade/atributo dentro de um objeto.
