@@ -35,6 +35,28 @@ function onAddClicked() {
     let tudo = new todo();
     validTodo(tudo);
 
+    /*// Exemplo 1 de um modo
+    function onAddClicked(){
+        var description = document.getElementById("description").value;
+        var dueDate = document.getElementById("dueDate").value;
+        console.log("description: "+description);
+        console.log("dueDate: "+dueDate);
+        let obj = {'description': description, 'dueDate': dueDate};
+        addTodoItem(obj);
+    }*/
+
+    /*// Exemplo 1 de outro modo
+    function onAddClicked(){
+        var description = document.getElementById("description").value;
+        var dueDate = document.getElementById("dueDate").value;
+        console.log("description: "+description);
+        console.log("dueDate: "+dueDate);
+        addTodoItem({'description': description, 'dueDate': dueDate});
+    }*/
+
+    // Um objeto no Javascript é passado dentro de chaves e precisa de dois parametros!
+    // Para solucionar esse exercicio basta pegar o exercício puro e criar um obejto que tenha como informações os dados a serem captados, e passar como parametro para a função q será responsável popr criar a lista e colocar as informações.
+
 }
 
 function validTodo(todo) {
