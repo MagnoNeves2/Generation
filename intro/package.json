@@ -1,0 +1,11 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "meu primeiro app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magno de Oliveira Neves",
+  "license": "ISC"
+}
