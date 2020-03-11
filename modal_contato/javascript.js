@@ -42,11 +42,20 @@ document.getElementById('btnEnviar').addEventListener('click', () => {
         }
     }
     
+    if (comprimentoNome < 1) {
+        document.getElementById('alert-name').innerHTML = "Campo vazio, por favor preencha-o!";
+        document.getElementById("alert-name").style.visibility = "visible";
+    }
+
     if (!(comprimentoEmail > 1)) {
         document.getElementById('alert-email').innerHTML = "Campo vazio, por favor preencha-o!";
         document.getElementById("alert-email").style.visibility = "visible";
     }
 
+    if (!(comprimentoMensagem > 1)) {
+        document.getElementById('alert-message').innerHTML = "Campo vazio, por favor preencha-o!";
+        document.getElementById("alert-message").style.visibility = "visible";
+    }
 
     else if (!email.includes('@')) {
         document.getElementById("alert-email").innerHTML = "Está faltando o @ - Preencha-o!";
@@ -60,6 +69,9 @@ document.getElementById('btnEnviar').addEventListener('click', () => {
 
     else {
         document.getElementById("alert-email").style.visibility = "hidden";
+        document.getElementById('alert-name').style.visibility = 'hidden';
+        document.getElementById("alert-email").style.visibility = "hidden";
+        document.getElementById("alert-message").style.visibility = "hidden";
         return mostra();
     }
 
