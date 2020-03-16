@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "Magno de Oliveira Neves",
+        "cpf": "12345678910",
+        "rg": "123456789"
+    },
+    {
+        "nome": "Paula Tejano da Silva",
+        "cpf": "10987654321",
+        "rg": "987654321"
+    },
+    {
+        "nome": "Thomas Turbano Cunha Lopes",
+        "cpf": "01234567891",
+        "rg": "741852963"
+    },
+    {
+        "nome": "Rodigo Zando Secco",
+        "cpf": "14725836920",
+        "rg": "852147369"
+    },
+    {
+        "nome": "Jacinto Paullad Rento",
+        "cpf": "36987452101",
+        "rg": "456123789"
+    }
+]
