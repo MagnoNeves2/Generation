@@ -1,0 +1,34 @@
+[
+    {
+        "isbn": "9876543210",
+        "title": "A vida é bela",
+        "author": "Wheslley Ribamar",
+        "publish_date": "2014-12-14",
+        "publisher": "Senac",
+        "numOfPages": 472
+    },
+    {
+        "isbn": "0123456789",
+        "title": "Game of Thrones",
+        "author": "George R. R. Martin",
+        "publish_date": "1992-06-22",
+        "publisher": "Generation",
+        "numOfPages": 800
+    },
+    {
+        "isbn": "9638527410",
+        "title": "A volta dos que não foram",
+        "author": "Bob Esponja",
+        "publish_date": "1920-05-13",
+        "publisher": "Capcom",
+        "numOfPages": 345
+    },
+    {
+        "isbn": "0231456789",
+        "title": "TEste TEste",
+        "author": "Chiquinho da Silva",
+        "publish_date": "1999-09-10",
+        "publisher": "marvel",
+        "numOfPages": 608
+    }
+]
