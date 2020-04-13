@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstap - Básico 1</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Bootstrap - Básico 1</h1>
+    <br>
+    <h2>Reboot (Reinicialização)</h2>
+    <p>
+        A Reinicialização baseia-se apenas na padronização de estilo para alguns elementos do HTML, fazendo o uso de
+        seletores CSS pelo nome de Tags e atributos.
+    </p>
+    <br>
+
+    <h3>Página padrão e fontes nativas.</h3>
+    <p>
+        Os elementos &lt;html&gt; e &lt;body&gt; são modificados para melhor exibição da página.
+    </p>
+
+    <h3>Títulos</h3>
+    <p>
+        O elemento HTML &lt;h1&gt; - &lt;h6&gt; (ou elemento HTML título) representa 6 níveis de títulos.
+    </p>
+    <h1>Título nível 1</h1>
+    <h2>Título nível 2</h2>
+    <h3>Título nível 3</h3>
+    <h4>Título nível 4</h4>
+    <h5>Título nível 5</h5>
+    <h6>Título nível 6</h6>
+    <br>
+
+    <h3>Parágrafos</h3>
+    <p>
+        O elemento HTML &lt;p&gt; (ou elemento de parágrafo) representa um parágrafo do texto.
+    </p>
+    <br>
+
+    <h3>Listas</h3>
+    <p>
+        O elemento HTML &lt;ul&gt; (ou elemento de lista desordenada) representa uma lista de itens sem ordem rígidas,
+        isto é, uma coleção de itens que não trazem uma ordenação númerica e as sua posições.
+    </p>
+    <ul>
+        <li>Banana</li>
+        <ul>
+            <li>Nanica</li>
+            <li>Prata</li>
+        </ul>
+        <li>Abacaxi</li>
+        <li>Graviola</li>
+    </ul>
+
+    <p>
+        O elemento &lt;ol&gt; ( ou elemento de lista ordenada) representa uma lista de itens ordenados.
+    </p>
+    <ol>
+        <li>Banana</li>
+        <li>Abacaxi</li>
+        <li>Graviola</li>
+    </ol>
+
+    <p>
+        O elemento HTML &lt;dl&gt; (ou elemento de lista de definições) engloba uma lista de pares de termos e
+        descrições.
+    </p>
+    <dl>
+        <dt>Frutas</dt>
+        <dd>Banana, abacaxi e graviola</dd>
+        <dt>Legumes</dt>
+        <dd>Abobrinha, Cenoura e Batata</dd>
+    </dl>
+    <br>
+
+    <h3>Textos pré-formatados</h3>
+    <P>
+        O elemento HTML &lt;pre&gt; representa o texto pré-formatado que deve ser apresentado exatamente como está
+        escrito no arquivo HTML.
+    </P>
+    <pre>
+        ****************************
+        *   TEXTO PRÉ-FORMATADO    *
+        ****************************
+    </pre>
+    <br>
+
+    <h3>Tabelas</h3>
+    <table>
+        <caption>Tabela: relação de frutas e legumes</caption>
+        <thead>
+            <tr>
+                <th>Frutas</th>
+                <th>Legumes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Banana</td>
+                <td>Abobrinha</td>
+            </tr>
+            <tr>
+                <td>Abacaxi</td>
+                <td>Cenoura</td>
+            </tr>
+            <tr>
+                <td>Graviola</td>
+                <td>Batata</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <h3>Formulários</h3>
+    <p>
+
+    </p>
+    <form>
+        <fieldset>
+            <legend>Legenda de campo</legend>
+            <p>
+                <label for="inputText">Campo texto</label>
+                <input type="text" id="inputText" placeholder="Campo Texto">
+            </p>
+            <p>
+                <label for="select">Lista suspensa (dropdown list)</label>
+                <select id="select">
+                    <option value="">Selecione...</option>
+                    <optgroup label="Frutas">
+                        <option value="banana">Banana</option>
+                        <option value="abacaxi">Abacaxi</option>
+                        <option value="graviola">Graviola</option>
+                    </optgroup>
+                    <optgroup label="Legumes">
+                        <option value="abobrinha">Abobrinha</option>
+                        <option value="cenoura">Cenoura</option>
+                        <option value="batata">Batata</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" value="frutas" checked="">
+                    Frutas
+                </label>
+                <label>
+                    <input type="checkbox" value="legumes">
+                    Legumes
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="optionsRadios" value="banana" checked="">
+                    Banana
+                </label>
+                <label>
+                    <input type="radio" name="optionsRadios" value="abacaxi">
+                    Abacaxi
+                </label>
+            </p>
+
+            <p>
+                <label for="textarea">Área de texto (textarea)</label>
+                <textarea id="textarea" rows="3"></textarea>
+            </p>
+
+            <p>
+                <label for="date">Campo de data</label>
+                <input type="date" id="date">
+            </p>
+
+            <p>
+                <button type="submit">Botão de Submit</button>
+            </p>
+
+        </fieldset>
+    </form>
+
+    
+
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

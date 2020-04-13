@@ -1,0 +1,3 @@
+# Ignorar arquivos do Node Modules
+node_modules/
+
